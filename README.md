@@ -1,2 +1,2 @@
 # object-oriented-programming
-kang
+kangnam-university
