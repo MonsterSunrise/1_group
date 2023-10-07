@@ -23,3 +23,11 @@ void Ram::write(int address, char value) { // write 함수를 정의한다. 주�
 
     mem[address] = value;
 }
+
+
+// 이 코드를 작성하기 위해서 사용된 개념
+
+// 생성자와 소멸자: 생성자는 객체가 생성될 때 호출되고, 소멸자는 객체가 소멸될 때 호출된다. 이 코드에서 Ram::Ram()은 생성자이고, Ram::~Ram()은 소멸자이다.
+// 배열: mem은 char 타입의 배열을 사용한다
+// using namespace std: std 네임스페이스를 전역으로 사용하겠다고 선언했다.  std::cout, std::endl 등을 cout, endl로 간단하게 사용할 수 있다.
+
