@@ -1,0 +1,19 @@
+<1>
+사람의 말하기 먹기 걷기 잠자기 기능은 공통적으로 가지고 있기 때문에 Person 이라는 클래스를 만든다
+Student 의 공부하기 기능에 일하기가 추가된 StudentWorker 는 Person Class의 기능을 상속받은 Student Class 를 상속받아 구분 가능하다
+공통된 연구에 가르치는 기능이 있는 Professor 는 Researcher 의 기능을 상속받아 가르치는 기능을 추가로 가지고 있기 때문에 Person Class 를 상속받은
+Researcher Class 를 상속받은 Professor Class 를 작성 할 수 있다.
+
+Professor Class를 예시로 작성해보면
+class Person{
+  void 말하기;
+  void 먹기;
+  void 걷기;
+  void 잠자기;}
+class Researcher : public Person{
+  void 연구하기;}
+class Professor : public Researcher{
+  void 가르치기;}
+이와 같이 작성할 수 있다.
+
+<2>
